@@ -8,7 +8,7 @@ export default {
     "combat": {
         "autoclicker":{
             //if player cps go over this number, player gets flagged for autoclicker
-            "maxCps": 12
+            "maxCps": 20
         },
         "killaura":{
             //if player attacks this or many more number of entities in a single tick, gets flagged for killaura
@@ -38,7 +38,7 @@ export default {
     "world":{
         "nuker":{
             //if player breaks this many or more blocks in a single tick, gets flagged for nuker 
-            "maxBlocks": 3,
+            "maxBlocks": 8,
             //checks if admin players are using nuker (good for anti op abuse)
             "checkAdmins": true
         }
